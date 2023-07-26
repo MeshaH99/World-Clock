@@ -42,7 +42,8 @@ function updateCity(event) {
           <div class="time">${cityTime.format(
             "hh:mm:ss"
           )}<small>${cityTime.format("A")}</small></div>
-        </div>`;
+          </div>
+          <small><a href="/">All countries</a></small>`;
 }
 
 let citiesSelectElement = document.querySelector("#city-dropdown");
